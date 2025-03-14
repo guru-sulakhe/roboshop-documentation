@@ -122,8 +122,11 @@ Load Schema
 mongosh --host MONGODB-SERVER-IPADDRESS </app/schema/user.js
 ```
 ```
-systemctl restart catalogue
+systemctl restart user
 ```
 ```
 netstat -ltnp
+```
+```
+curl http://localhost:8080/health
 ```
