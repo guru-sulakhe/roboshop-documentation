@@ -94,3 +94,9 @@ systemctl enable payment
 ```
 systemctl start payment
 ```
+```
+netstat -ltnp
+```
+```
+curl http://localhost:8080/health
+```
