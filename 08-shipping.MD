@@ -115,3 +115,9 @@ This service needs a restart because it is dependent on schema, After loading sc
 ```
 systemctl restart shipping
 ```
+```
+tail -f /var/log/messages
+```
+```
+curl http://localhost:8080/health
+```
